@@ -1,0 +1,20 @@
+spring:
+  config:
+    import: "optional:configserver:"
+  application:
+    name: authentication-service
+  data:
+    mongodb:
+      database: nutrition-database
+      port: 27017
+      host: localhost
+      auto-index-creation: true
+server:
+  port: 8082
+  error:
+    include-message: always
+    include-stacktrace: never
+eureka:
+  instance:
+    hostname: localhost
+

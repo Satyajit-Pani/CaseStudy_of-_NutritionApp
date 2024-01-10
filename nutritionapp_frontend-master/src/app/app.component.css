@@ -1,0 +1,35 @@
+
+header{
+  background-image: url('src\assets\nutritionappbackground.jpg');
+  background-repeat: no-repeat;
+  height: 80px;
+  background-color: rgb(37, 161, 83);
+}
+a{
+  margin-left: 20px;
+  text-decoration: solid;
+}
+.text-white{
+  font-size: large;
+  font-weight: 1000;
+ 
+}
+.styling{
+  margin-top: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.company {
+  color: orange;
+}
+
+
+
+
+
+footer{
+  background-color: rgb(196, 203, 15);
+}
+.company {
+  background-image: url("src\assets\nutrition.gif");
+}
